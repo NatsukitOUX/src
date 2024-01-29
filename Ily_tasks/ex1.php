@@ -1,3 +1,5 @@
+<?php include 'header.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,3 +73,5 @@ it as an image in the "ex1.php" file.</h3>
 
 </body>
 </html>
+
+<?php include 'footer.php';?>
