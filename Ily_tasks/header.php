@@ -17,7 +17,7 @@
 
 <div class="col-4">
 <!--nq;emmm -->
-<h1 class="h">ILYAS OUBOUSKEN</h1>
+<h1 class="h">My website</h1>
 
 </div>
 
@@ -42,19 +42,19 @@
             </li>
             
             <li class="nav-item">
-            <a class="nav-link active" href="ex2.php">ex4</a>
+            <a class="nav-link active" href="#">ex4</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" href="ex2.php">ex5</a>
+            <a class="nav-link active" href="#">ex5</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" href="ex2.php">ex6</a>
+            <a class="nav-link active" href="#">ex6</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" href="ex2.php">ex7</a>
+            <a class="nav-link active" href="#">ex7</a>
           </li>
             </a>
            
