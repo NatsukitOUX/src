@@ -33,13 +33,13 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="ex1.php">ex1</a>
-
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="ex2.php">ex2</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">ex3</a>
+            </li>
             
             <li class="nav-item">
             <a class="nav-link active" href="ex2.php">ex4</a>
