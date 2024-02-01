@@ -39,8 +39,23 @@
             <a class="nav-link active" href="ex2.php">ex2</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">CV</a>
+            <a class="nav-link active" href="#">ex3</a>
             
+            <li class="nav-item">
+            <a class="nav-link active" href="ex2.php">ex4</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="ex2.php">ex5</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="ex2.php">ex6</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="ex2.php">ex7</a>
+          </li>
             </a>
            
             </ul>
