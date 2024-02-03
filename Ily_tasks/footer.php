@@ -9,3 +9,12 @@
     <a href="#" class="btn btn-primary">Contact Us</a>
   </div>
 </div>
+
+
+<?php
+
+$currentFile = basename($_SERVER['PHP_SELF']);
+$lastModifiedTime = filemtime($currentFile);
+
+echo "Last modified: " . date("F d, Y H:i:s", $lastModifiedTime);
+?>
