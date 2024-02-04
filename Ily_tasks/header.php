@@ -42,7 +42,7 @@
             </li>
             
             <li class="nav-item">
-            <a class="nav-link active" href="#">ex4</a>
+            <a class="nav-link active" href="ex4.php">ex4</a>
           </li>
 
           <li class="nav-item">

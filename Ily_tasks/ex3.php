@@ -85,8 +85,8 @@ echo  "<br>" ."Number addition equals to: "  . ($num1 + $num2 + $num3)  ;
 <?php
 
 if($_SERVER['PHP_SELF']) {
-    $name= $_POST["name"];
-    $email=$_POST["email"];
+  $name= $_POST["name"];
+  $email=$_POST["email"];
     
     echo "<br>" ."Hello, $name Your eamil id is:  $email ";
 
