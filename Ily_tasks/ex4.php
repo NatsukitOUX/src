@@ -9,11 +9,7 @@ include 'header.php';
 <html>
 <body>
 
-<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
 
-
-  
-</form>
 
 
 <div class="container mt-5">
@@ -25,9 +21,7 @@ include 'header.php';
                     <label for="number">Enter a Number</label>
                     <input type="text" name="number" id="number" class="form-control" placeholder="Enter a number" required>
                     <div class="invalid-feedback">Please enter a number.</div>
-                    Name: <input type="text" name="name" required>
-  <br>Age: <input type="text" name="age" required>
-  <input type="submit" value="Submit">
+                   
                 </div>
                 <button type="submit" class="btn btn-primary">Generate Table</button>
             </form>
@@ -35,6 +29,14 @@ include 'header.php';
     </div>
 </div>
 
+
+<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+Name: <input type="text" name="name" required>
+<br>Age: <input type="text" name="age" required>
+<input type="submit" value="Submit">
+
+  
+</form>
 
 
 <?php 
@@ -81,16 +83,48 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $number = isset($_POST['number']) ? $_POST['number'] : 0;
     
     echo "<h2>Multiplication Table for $number:</h2>";
-    echo "<ul>";
+    
     for ($i = 1; $i <= 10; $i++) {
       $result = $number * $i;
       echo "<li>$number x $i = $result</li>";
     }
-    echo "</ul>";
+    
   }
 
 ?>
 
+
+
+<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+  Enter a number: <input type="text" name="n" required>
+  <input type="submit" value="Print Numbers">
+</form>
+
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  
+  $n = isset($_POST['n']) ? $_POST['n'] : 0;
+
+  
+  echo "<h2>Numbers from 1 to $n:</h2>";
+  
+  $i = 1;
+  while ($i <= $n) {
+    echo "<li>$i</li>";
+    $i++;
+  }
+  
+}
+?>
+
+<?php
+$myarray = array("HTML", "CSS", "PHP", "JavaScript");
+
+foreach ($myarray as $element) {
+    echo $element . "<br>";
+}
+?>
 
 
 <?php  include 'footer.php';  ?>
