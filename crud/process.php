@@ -1,9 +1,9 @@
 <?php 
 
 //what to do with the data 
-if (isset($_POST[submit])) {
+if (isset($_POST['submit'])) {
 
-$fname=$_POST['$fname'];
+$fname=$_POST['fname'];
 $lname=$_POST['lname'];
 $city=$_POST['city'];
 $groupid=$_POST['groupid'];
@@ -12,8 +12,8 @@ $groupid=$_POST['groupid'];
 include 'db.php';
 
 //write sql statementto insert data
-$sql= "inser into studentinfo(first_name,last_name ,city, groupId
-     values '$fname' ,'$lname', '$city','$groupid')";
+$sql= "insert into studentinfo(first_name,last_name ,city, groupId)
+     values('$fname' ,'$lname', '$city','$groupid')";
 
 if ($conn->query($sql)==TRUE) {
 echo"your data was recorded";
@@ -21,7 +21,7 @@ echo"your data was recorded";
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 //close the database connerction
-$conn-close( );
+$conn->close();
 }
 
 ?>
