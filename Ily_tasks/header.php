@@ -54,7 +54,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" href="crud\index.php">ex7</a> 
+            <a class="nav-link active" href="../crud/index.php">ex7</a> 
           </li>
             </a>
            
