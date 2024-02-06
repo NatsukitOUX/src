@@ -1,8 +1,8 @@
 <?php
-$servername="php24-db-1";
-$username ="app1";
-$password="password";
-$dbname="app1";
+$servername="localhost";
+$username ="ilyas23000";
+$password="IlFtFA6B";
+$dbname="wp_ilyas23000";
 
 //create database connection
 $conn = new mysqli($servername, $username, $password, $dbname);
