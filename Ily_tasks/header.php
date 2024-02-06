@@ -32,17 +32,17 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="ex1.php">ex1</a>
+          <a class="nav-link active" aria-current="page" href="../Ily_tasks/ex1.php">ex1</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="ex2.php">ex2</a>
+            <a class="nav-link active" href="../Ily_tasks/ex2.php">ex2</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="ex3.php">ex3</a>
+            <a class="nav-link active" href="../Ily_tasks/ex3.php">ex3</a>
             </li>
             
             <li class="nav-item">
-            <a class="nav-link active" href="ex4.php">ex4</a>
+            <a class="nav-link active" href="../Ily_tasks/ex4.php">ex4</a>
           </li>
 
           <li class="nav-item">
