@@ -46,20 +46,21 @@ include 'header.php';
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>marwan_53</td>
+      <td>mharzi</td>
+      <td>@youtube</td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
-      <td>@fat</td>
+      <td>@twitch</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
+      <th scope="row">1</th>
+      <td>Ilyas</td>
+      <td>Oub</td>
+      <td>@fb</td>
     </tr>
   </tbody>
 </table>
@@ -84,11 +85,11 @@ echo  "<br>" ."Number addition equals to: "  . ($num1 + $num2 + $num3)  ;
 
 <?php
 
-if($_SERVER['PHP_SELF']) {
-  $name= $_POST["name"];
-  $email=$_POST["email"];
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $name = $_POST["name"];
+  $email = $_POST["email"];
     
-    echo "<br>" ."Hello, $name Your eamil id is:  $email ";
+    echo "<h3><br>" ."Hello, $name Your eamil id is:  $email </h3> ";
 
 }
 
