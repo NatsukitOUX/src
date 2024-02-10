@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="style-html.css">
 
     
+    <style>
+        /* Additional CSS styles */
+        .h {
+            color: blue;
+        }
+        .navbar {
+            background-color: #333; 
+        }
+        .navbar-nav .nav-link {
+            color: #fff; 
+        }
+        .navbar-nav .nav-link:hover {
+            color: #aaa; 
+        }
+    </style>
 </head>
 <body> 
  <div class="container">
@@ -32,30 +47,38 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../Ily_tasks/ex1.php">ex1</a>
+          <a class="nav-link active" aria-current="page" href="ex1.php">Exercise1</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="../Ily_tasks/ex2.php">ex2</a>
+            <a class="nav-link active" href="ex2.php">Exercise2</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="../Ily_tasks/ex3.php">ex3</a>
+            <a class="nav-link active" href="ex3.php">Exercise3</a>
             </li>
             
             <li class="nav-item">
-            <a class="nav-link active" href="../Ily_tasks/ex4.php">ex4</a>
+            <a class="nav-link active" href="ex4.php">Exercise4</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" href="#">ex5</a>
+            <a class="nav-link active" href="#">Exercise5</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" href="#">ex6</a>
+            <a class="nav-link active" href="#">Exercise6</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link active" href="../crud/index.php">ex7</a> 
-          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="index.php" role="button" data-bs-toggle="dropdown"style='color:black' aria-expanded="false">
+            Exercise7
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="update_single.php">Update & Delete Data </a></li>
+            <li><a class="dropdown-item" href="read.php">Reade Data</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
             </a>
            
             </ul>
@@ -68,7 +91,8 @@
          
         </form>
       </div>
-      
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     </div>
   </nav>
  

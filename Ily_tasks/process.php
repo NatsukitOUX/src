@@ -1,11 +1,27 @@
-<?php
-//what to do withe the form data 
-$title="Your information";
-include 'header.php';
-$name= $_POST["name"];
-$email=$_POST["email"];
+<?php 
 
-echo "Hello " . $name ."<br> Your eamil id is ". $email ;
+//what to do with the data 
+if (isset($_POST['submit'])) {
 
-include 'footer.php';
+$fname=$_POST['fname'];
+$lname=$_POST['lname'];
+$city=$_POST['city'];
+$groupid=$_POST['groupid'];
+
+//connect to the database server 
+include 'db.php';
+
+//write sql statementto insert data
+$sql= "insert into studentinfo(first_name,last_name ,city, groupId)
+     values('$fname' ,'$lname', '$city','$groupid')";
+
+if ($conn->query($sql)==TRUE) {
+echo"your data was recorded";
+}else{
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+//close the database connerction
+$conn->close();
+}
+
 ?>
